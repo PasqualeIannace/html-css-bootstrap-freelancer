@@ -1,0 +1,15 @@
+nav,
+footer {
+    background: #2C3D50;
+    color: white;
+}
+
+/* Classi */
+
+.green {
+    background: #1ABC9C;
+}
+
+.darkBlue {
+    background: #3B546D;
+}
