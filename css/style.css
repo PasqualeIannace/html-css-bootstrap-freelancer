@@ -49,3 +49,39 @@ input {
 .brownLight {
     background: #CCB2A3;
 }
+
+.white {
+    background: white;
+}
+
+.black {
+    background: black;
+}
+
+.hr {
+    display: flex;
+}
+
+.hrLine {
+    width: 15em;
+    height: 0.4em;
+    border-radius: 1em;
+}
+
+/* Nav */
+
+.navLarge {
+    display: none;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) {
+    .navLarge {
+        display: inline-block;
+    }
+
+    .navSmall {
+        display: none;
+    }
+}
