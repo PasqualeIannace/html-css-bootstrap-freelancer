@@ -4,12 +4,48 @@ footer {
     color: white;
 }
 
-/* Classi */
+hr {
+    display: inline-block;
+    width: 5em;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #8080805e;
+}
+
+/* Classi Atomiche */
 
 .green {
     background: #1ABC9C;
+    color: white;
 }
 
 .darkBlue {
     background: #3B546D;
+}
+
+.redBrick {
+    background: #BA4B63;
+}
+
+.petrolio {
+    background: #1EA3B6;
+}
+
+.black {
+    background: black;
+}
+
+.blueLight {
+    background: #1C83C1;
+}
+
+.blue {
+    background: #0D38B5;
+}
+
+.brownLight {
+    background: #CCB2A3;
 }
