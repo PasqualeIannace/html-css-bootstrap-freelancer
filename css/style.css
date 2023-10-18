@@ -13,7 +13,6 @@ input {
     width: 100%;
     border: none;
     border-bottom: 2px solid #8080805e;
-    /* padding: 1em 0; */
 }
 
 textarea {
@@ -57,6 +56,15 @@ textarea {
 
 .navLarge {
     display: none;
+}
+
+.burger {
+    filter: invert(1);
+}
+
+#burgerBorder {
+    color: white;
+    border: 1px solid white;
 }
 
 /* Contact Me */
