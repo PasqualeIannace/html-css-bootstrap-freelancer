@@ -37,19 +37,19 @@
         <!-- Section 1 -->
         <section class="green">
             <div class="container">
-                <div class="row text-center justify-content-center">
-                    <div class="col-6 col-md-3 col-lg-2">
+                <div class="row text-center justify-content-center pt-4">
+                    <div class="col-6 col-md-3 col-lg-2 py-2">
                         <img src="./img/avatar.svg" alt="Avatar">
                     </div>
-                    <h2>START BOOTSTRAP</h2>
+                    <h2 class="fs-1">START BOOTSTRAP</h2>
                     <div class="col-12">
-                        <div class="hr justify-content-center">
+                        <div class="d-flex justify-content-center py-3">
                             <div class="hrLine white"></div>
                             <i class="fa-solid fa-star fa-lg"></i>
                             <div class="hrLine white"></div>
                         </div>
                     </div>
-                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    <p class="fw-semibold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
         </section>
@@ -59,8 +59,14 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h2>PORTFOLIO</h2>
-                        <hr> <i class="fa-solid fa-star fa-lg"></i> <hr>
+                        <h2 class="fs-1 pt-5">PORTFOLIO</h2>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center py-3">
+                                <div class="hrLine black"></div>
+                                <i class="fa-solid fa-star fa-lg"></i>
+                                <div class="hrLine black"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row text-center">
@@ -96,13 +102,19 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h2>ABOUT</h2>
-                        <hr> <i class="fa-solid fa-star fa-lg"></i> <hr>
+                        <h2 class="fs-1 pt-5">ABOUT</h2>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center py-3">
+                                <div class="hrLine white"></div>
+                                <i class="fa-solid fa-star fa-lg"></i>
+                                <div class="hrLine white"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row px-5">
                     <div class="col-12 col-md-6">
-                        <p>Freelancer is a free bootstrap theme created by Start
+                        <p class="fw-semibold">Freelancer is a free bootstrap theme created by Start
                             Bootstrap. The download includes the complete
                             source files including HTML, CSS, and JavaScript as
                             well as optional LESS stylesheets for easy
@@ -110,11 +122,14 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-6">
-                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        <p class="fw-semibold">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
                     </div>
                 </div>
                 <div class="text-center">
-                    <button>Download</button>
+                    <button class="btn btn-outline-light my-5">
+                        <i class="fa-solid fa-download" style="color: #ffffff;"></i>
+                        Download
+                    </button>
                 </div>
             </div>
         </section>
@@ -124,18 +139,31 @@
             <div class="container">
                 <div class="row text-center">
                     <div class="col-12">
-                        <h2>CONTACT ME</h2>
-                        <hr> <i class="fa-solid fa-star fa-lg"></i> <hr>
+                        <h2 class="fs-1 pt-5">CONTACT ME</h2>
+                        <div class="col-12">
+                            <div class="d-flex justify-content-center py-3">
+                                <div class="hrLine black"></div>
+                                <i class="fa-solid fa-star fa-lg"></i>
+                                <div class="hrLine black"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="form">
+                    <div class="form pb-5">
                         <form action="">
-                            <input type="text" placeholder="Name">
-                            <input type="email" name="" id="" placeholder="Email Address">
-                            <input type="number" name="" id="" placeholder="Phone Number">
-                            <textarea name="" id=""> Message</textarea>
-                            <button>Send</button>
+                            <label for="name">Name</label>
+                            <input type="text" id="Name">
+                            
+                            <label for="email">Email Addres</label>
+                            <input type="email" name="" id="email">
+
+                            <label for="Phone">Phone Number</label>
+                            <input type="number" name="" id="Phone">
+
+                            <label for="message">Message</label>
+                            <textarea name="" id="message"></textarea>
+                            <button class="btnGreen green">Send</button>
                         </form>
                     </div>
                 </div>

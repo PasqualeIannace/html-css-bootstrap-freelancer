@@ -13,10 +13,12 @@ input {
     width: 100%;
     border: none;
     border-bottom: 2px solid #8080805e;
+    /* padding: 1em 0; */
 }
 
 textarea {
     width: 100%;
+    height: 7em;
     border: none;
     border-bottom: 2px solid #8080805e;
 }
@@ -32,52 +34,33 @@ textarea {
     background: #3B546D;
 }
 
-.redBrick {
-    background: #BA4B63;
-}
-
-.petrolio {
-    background: #1EA3B6;
-}
-
 .black {
     background: black;
-}
-
-.blueLight {
-    background: #1C83C1;
-}
-
-.blue {
-    background: #0D38B5;
-}
-
-.brownLight {
-    background: #CCB2A3;
 }
 
 .white {
     background: white;
 }
 
-.black {
-    background: #130F0F;
-}
-
-.hr {
-    display: flex;
-}
-
 .hrLine {
-    width: 15em;
-    height: 0.4em;
+    width: 10em;
+    height: 0.2em;
     border-radius: 1em;
+    margin: 0 1em;
 }
 
 /* Nav */
 
 .navLarge {
     display: none;
+}
+
+/* Contact Me */
+
+.btnGreen {
+    padding: 0.4em 1em;
+    border: none;
+    border-radius: 0.2em;
 }
 
 /* MEDIA QUERY */
