@@ -49,6 +49,10 @@ textarea {
     margin: 0 1em;
 }
 
+.fs07 {
+    font-size: 0.7em;
+}
+
 /* Nav */
 
 .navLarge {
@@ -61,6 +65,23 @@ textarea {
     padding: 0.4em 1em;
     border: none;
     border-radius: 0.2em;
+}
+
+/* Footer */
+
+.circle {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    padding: 0.4em;
+    margin: 0 0.5em;
+}
+
+.linkGreen {
+    color: #1ABC9C;
+    text-decoration: none;
 }
 
 /* MEDIA QUERY */
